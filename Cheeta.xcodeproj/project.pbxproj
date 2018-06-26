@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87433DC6CCF04CC33A6ED6FD /* Pods_Cheeta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A458226EC2792F81505C3E61 /* Pods_Cheeta.framework */; };
+		C3680F2120DE4CB200D3AFE7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3680F2020DE4CB200D3AFE7 /* WelcomeViewController.swift */; };
+		C3680F2820DFB2AD00D3AFE7 /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3680F2720DFB2AD00D3AFE7 /* MembersViewController.swift */; };
+		C3680F2B20DFC88C00D3AFE7 /* SelectMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3680F2920DFC88C00D3AFE7 /* SelectMemberCell.swift */; };
+		C3680F2C20DFC88C00D3AFE7 /* SelectMemberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3680F2A20DFC88C00D3AFE7 /* SelectMemberCell.xib */; };
+		C3680F3020E0006300D3AFE7 /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3680F2E20E0006300D3AFE7 /* PaymentCell.swift */; };
+		C3680F3120E0006300D3AFE7 /* PaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3680F2F20E0006300D3AFE7 /* PaymentCell.xib */; };
+		C3680F3420E0025600D3AFE7 /* AllPaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3680F3320E0025600D3AFE7 /* AllPaymentsViewController.swift */; };
+		C397F3BF20DA526A00DB0335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397F3BE20DA526A00DB0335 /* AppDelegate.swift */; };
+		C397F3C120DA526A00DB0335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397F3C020DA526A00DB0335 /* ViewController.swift */; };
+		C397F3C420DA526A00DB0335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C397F3C220DA526A00DB0335 /* Main.storyboard */; };
+		C397F3C920DA526A00DB0335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C397F3C820DA526A00DB0335 /* Assets.xcassets */; };
+		C397F3CC20DA526A00DB0335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C397F3CA20DA526A00DB0335 /* LaunchScreen.storyboard */; };
+		C3FC146B20DADBE1003D08B6 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC146A20DADBE1003D08B6 /* Member.swift */; };
+		C3FC146D20DAE0CB003D08B6 /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC146C20DAE0CB003D08B6 /* HistoryItem.swift */; };
+		C3FC147320DBDABC003D08B6 /* AddSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC147220DBDABC003D08B6 /* AddSumViewController.swift */; };
+		C3FC147620DD7F6B003D08B6 /* DebtsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC147420DD7F6B003D08B6 /* DebtsTableViewCell.swift */; };
+		C3FC147720DD7F6B003D08B6 /* DebtsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FC147520DD7F6B003D08B6 /* DebtsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		406F8E5B9C2C3244B5B9599D /* Pods-Cheeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheeta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheeta/Pods-Cheeta.debug.xcconfig"; sourceTree = "<group>"; };
+		47DACA68B999892EFA3F5510 /* Pods-Cheeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheeta.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cheeta/Pods-Cheeta.release.xcconfig"; sourceTree = "<group>"; };
+		A458226EC2792F81505C3E61 /* Pods_Cheeta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheeta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3680F2020DE4CB200D3AFE7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C3680F2720DFB2AD00D3AFE7 /* MembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
+		C3680F2920DFC88C00D3AFE7 /* SelectMemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMemberCell.swift; sourceTree = "<group>"; };
+		C3680F2A20DFC88C00D3AFE7 /* SelectMemberCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectMemberCell.xib; sourceTree = "<group>"; };
+		C3680F2E20E0006300D3AFE7 /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		C3680F2F20E0006300D3AFE7 /* PaymentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentCell.xib; sourceTree = "<group>"; };
+		C3680F3320E0025600D3AFE7 /* AllPaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPaymentsViewController.swift; sourceTree = "<group>"; };
+		C397F3BB20DA526A00DB0335 /* Cheeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cheeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C397F3BE20DA526A00DB0335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C397F3C020DA526A00DB0335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C397F3C320DA526A00DB0335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C397F3C820DA526A00DB0335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C397F3CB20DA526A00DB0335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C397F3CD20DA526A00DB0335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FC146A20DADBE1003D08B6 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		C3FC146C20DAE0CB003D08B6 /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		C3FC147220DBDABC003D08B6 /* AddSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSumViewController.swift; sourceTree = "<group>"; };
+		C3FC147420DD7F6B003D08B6 /* DebtsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsTableViewCell.swift; sourceTree = "<group>"; };
+		C3FC147520DD7F6B003D08B6 /* DebtsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebtsTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C397F3B820DA526900DB0335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87433DC6CCF04CC33A6ED6FD /* Pods_Cheeta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF48BC783FF7881D61DD533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				406F8E5B9C2C3244B5B9599D /* Pods-Cheeta.debug.xcconfig */,
+				47DACA68B999892EFA3F5510 /* Pods-Cheeta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71A93BFED68D1BE9B9AB4D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A458226EC2792F81505C3E61 /* Pods_Cheeta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3680F2D20DFC89200D3AFE7 /* SelectMemberCell */ = {
+			isa = PBXGroup;
+			children = (
+				C3680F2920DFC88C00D3AFE7 /* SelectMemberCell.swift */,
+				C3680F2A20DFC88C00D3AFE7 /* SelectMemberCell.xib */,
+			);
+			path = SelectMemberCell;
+			sourceTree = "<group>";
+		};
+		C3680F3220E0006900D3AFE7 /* PaymentCell */ = {
+			isa = PBXGroup;
+			children = (
+				C3680F2E20E0006300D3AFE7 /* PaymentCell.swift */,
+				C3680F2F20E0006300D3AFE7 /* PaymentCell.xib */,
+			);
+			path = PaymentCell;
+			sourceTree = "<group>";
+		};
+		C397F3B220DA526900DB0335 = {
+			isa = PBXGroup;
+			children = (
+				C397F3BD20DA526A00DB0335 /* Cheeta */,
+				C397F3BC20DA526A00DB0335 /* Products */,
+				4CF48BC783FF7881D61DD533 /* Pods */,
+				71A93BFED68D1BE9B9AB4D97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C397F3BC20DA526A00DB0335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C397F3BB20DA526A00DB0335 /* Cheeta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C397F3BD20DA526A00DB0335 /* Cheeta */ = {
+			isa = PBXGroup;
+			children = (
+				C397F3BE20DA526A00DB0335 /* AppDelegate.swift */,
+				C397F3D320DA52A800DB0335 /* Controllers */,
+				C397F3D520DA52C100DB0335 /* Data Model */,
+				C397F3D420DA52B200DB0335 /* Views */,
+				C397F3C820DA526A00DB0335 /* Assets.xcassets */,
+				C397F3CA20DA526A00DB0335 /* LaunchScreen.storyboard */,
+				C397F3CD20DA526A00DB0335 /* Info.plist */,
+			);
+			path = Cheeta;
+			sourceTree = "<group>";
+		};
+		C397F3D320DA52A800DB0335 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3680F2020DE4CB200D3AFE7 /* WelcomeViewController.swift */,
+				C397F3C020DA526A00DB0335 /* ViewController.swift */,
+				C3FC147220DBDABC003D08B6 /* AddSumViewController.swift */,
+				C3680F3320E0025600D3AFE7 /* AllPaymentsViewController.swift */,
+				C3680F2720DFB2AD00D3AFE7 /* MembersViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C397F3D420DA52B200DB0335 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3680F2D20DFC89200D3AFE7 /* SelectMemberCell */,
+				C3FC147820DD7F73003D08B6 /* DebtsCustomCell */,
+				C3680F3220E0006900D3AFE7 /* PaymentCell */,
+				C397F3C220DA526A00DB0335 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C397F3D520DA52C100DB0335 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3FC146A20DADBE1003D08B6 /* Member.swift */,
+				C3FC146C20DAE0CB003D08B6 /* HistoryItem.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		C3FC147820DD7F73003D08B6 /* DebtsCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				C3FC147420DD7F6B003D08B6 /* DebtsTableViewCell.swift */,
+				C3FC147520DD7F6B003D08B6 /* DebtsTableViewCell.xib */,
+			);
+			path = DebtsCustomCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C397F3BA20DA526900DB0335 /* Cheeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C397F3D020DA526A00DB0335 /* Build configuration list for PBXNativeTarget "Cheeta" */;
+			buildPhases = (
+				A4E76FB75A6F4BA731F2BCD9 /* [CP] Check Pods Manifest.lock */,
+				C397F3B720DA526900DB0335 /* Sources */,
+				C397F3B820DA526900DB0335 /* Frameworks */,
+				C397F3B920DA526900DB0335 /* Resources */,
+				826FDD7321D86EEF4863DDB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cheeta;
+			productName = Cheeta;
+			productReference = C397F3BB20DA526A00DB0335 /* Cheeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C397F3B320DA526900DB0335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Elina Talashka";
+				TargetAttributes = {
+					C397F3BA20DA526900DB0335 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C397F3B620DA526900DB0335 /* Build configuration list for PBXProject "Cheeta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C397F3B220DA526900DB0335;
+			productRefGroup = C397F3BC20DA526A00DB0335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C397F3BA20DA526900DB0335 /* Cheeta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C397F3B920DA526900DB0335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FC147720DD7F6B003D08B6 /* DebtsTableViewCell.xib in Resources */,
+				C3680F2C20DFC88C00D3AFE7 /* SelectMemberCell.xib in Resources */,
+				C3680F3120E0006300D3AFE7 /* PaymentCell.xib in Resources */,
+				C397F3CC20DA526A00DB0335 /* LaunchScreen.storyboard in Resources */,
+				C397F3C920DA526A00DB0335 /* Assets.xcassets in Resources */,
+				C397F3C420DA526A00DB0335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		826FDD7321D86EEF4863DDB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cheeta/Pods-Cheeta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheeta/Pods-Cheeta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E76FB75A6F4BA731F2BCD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cheeta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C397F3B720DA526900DB0335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3680F3420E0025600D3AFE7 /* AllPaymentsViewController.swift in Sources */,
+				C3680F3020E0006300D3AFE7 /* PaymentCell.swift in Sources */,
+				C3680F2820DFB2AD00D3AFE7 /* MembersViewController.swift in Sources */,
+				C3FC147620DD7F6B003D08B6 /* DebtsTableViewCell.swift in Sources */,
+				C397F3C120DA526A00DB0335 /* ViewController.swift in Sources */,
+				C3680F2B20DFC88C00D3AFE7 /* SelectMemberCell.swift in Sources */,
+				C3FC146D20DAE0CB003D08B6 /* HistoryItem.swift in Sources */,
+				C397F3BF20DA526A00DB0335 /* AppDelegate.swift in Sources */,
+				C3FC146B20DADBE1003D08B6 /* Member.swift in Sources */,
+				C3FC147320DBDABC003D08B6 /* AddSumViewController.swift in Sources */,
+				C3680F2120DE4CB200D3AFE7 /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C397F3C220DA526A00DB0335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C397F3C320DA526A00DB0335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C397F3CA20DA526A00DB0335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C397F3CB20DA526A00DB0335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C397F3CE20DA526A00DB0335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C397F3CF20DA526A00DB0335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C397F3D120DA526A00DB0335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406F8E5B9C2C3244B5B9599D /* Pods-Cheeta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 264W8P5D4K;
+				INFOPLIST_FILE = Cheeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinatalashka.PizzaWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C397F3D220DA526A00DB0335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DACA68B999892EFA3F5510 /* Pods-Cheeta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 264W8P5D4K;
+				INFOPLIST_FILE = Cheeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinatalashka.PizzaWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C397F3B620DA526900DB0335 /* Build configuration list for PBXProject "Cheeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C397F3CE20DA526A00DB0335 /* Debug */,
+				C397F3CF20DA526A00DB0335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C397F3D020DA526A00DB0335 /* Build configuration list for PBXNativeTarget "Cheeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C397F3D120DA526A00DB0335 /* Debug */,
+				C397F3D220DA526A00DB0335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C397F3B320DA526900DB0335 /* Project object */;
+}
