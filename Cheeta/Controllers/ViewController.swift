@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableWithDebts.register(UINib(nibName: "DebtsTableViewCell", bundle: nil) , forCellReuseIdentifier: "DebtCustomCell")
         
         tableWithDebts.rowHeight = UITableViewAutomaticDimension
-        tableWithDebts.estimatedRowHeight = 60
+        tableWithDebts.estimatedRowHeight = 52
         
         makeRoundedCorners()
         updateLabels()
